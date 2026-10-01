@@ -1,0 +1,11 @@
+id,area_id,name,machine_type,manufacturer,model,criticality,current_state,description,is_active,created_at,updated_at
+1,1,CNC-01,cnc,DMG MORI,CMX 600 V,high,idle,CNC-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+2,1,Lathe-01,lathe,Mazak,QT-250,high,off,Lathe-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+3,2,Robot-01,robotic_arm,FANUC,M-20iD,medium,idle,Robot-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+4,3,Pack-01,packaging_machine,Bosch,Pack 301,medium,off,Pack-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+5,5,Conveyor-01,conveyor,Interroll,BM 8350,low,running,Conveyor-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+6,6,CNC-01,cnc,DMG MORI,CMX 1100 V,high,idle,CNC-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+7,6,Drill-01,drill,Haas,DT-1,medium,running,Drill-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+8,7,Robot-01,robotic_arm,ABB,IRB 6700,medium,off,Robot-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+9,8,Label-01,labeling_machine,Videojet,9550,low,maintenance,Label-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+10,9,Sorter-01,sorter,Vanderlande,CROSSORTER,medium,running,Sorter-01 in service,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z

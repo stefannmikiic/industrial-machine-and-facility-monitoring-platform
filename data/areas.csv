@@ -1,0 +1,11 @@
+id,factory_id,name,area_type,description,is_active,created_at,updated_at
+1,1,Machining Hall,machining,CNC and turning cell,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+2,1,Assembly Cell,assembly,Robotic assembly,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+3,1,Packaging Hall,packaging,Primary packaging line,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+4,1,Utilities Room,utilities,Compressed air and HVAC,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+5,1,Raw Material Warehouse,raw_material_warehouse,Inbound material storage,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+6,2,Machining Hall,machining,CNC and drilling cell,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+7,2,Assembly Cell,assembly,Robotic assembly,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+8,2,Packaging Hall,packaging,Labeling and pack-out,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+9,2,Shipping Dock,shipping,Outbound dispatch,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+10,2,Maintenance Shop,maintenance,Workshop for repairs,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z

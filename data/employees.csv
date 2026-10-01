@@ -1,0 +1,11 @@
+id,email,password_hash,full_name,is_active,created_at,updated_at
+1,ana.petrovic@plants.local,simulated-hash,Ana Petrovic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+2,marko.ilic@plants.local,simulated-hash,Marko Ilic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+3,jelena.kovac@plants.local,simulated-hash,Jelena Kovac,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+4,nikola.jovanovic@plants.local,simulated-hash,Nikola Jovanovic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+5,milica.stankovic@plants.local,simulated-hash,Milica Stankovic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+6,stefan.nikolic@plants.local,simulated-hash,Stefan Nikolic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+7,ivana.popovic@plants.local,simulated-hash,Ivana Popovic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+8,luka.djordjevic@plants.local,simulated-hash,Luka Djordjevic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+9,teodora.savic@plants.local,simulated-hash,Teodora Savic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+10,filip.milosevic@plants.local,simulated-hash,Filip Milosevic,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z

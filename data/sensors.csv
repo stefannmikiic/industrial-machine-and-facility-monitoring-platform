@@ -1,0 +1,61 @@
+id,area_id,machine_id,name,sensor_type,unit,min_normal_value,max_normal_value,sample_interval_seconds,last_seen_at,description,is_active,created_at,updated_at
+1,1,1,Spindle vibration,vibration,mm/s,0.2,4.5,5,2026-10-01T05:50:00Z,Spindle housing vibration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+2,1,1,Spindle temperature,temperature,C,20,75,10,2026-10-01T05:50:00Z,Spindle bearing temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+3,1,1,Spindle motor current,current,A,4,55,5,2026-10-01T05:50:00Z,Main spindle drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+4,1,1,Spindle power,power,kW,2,22,5,2026-10-01T05:50:00Z,Spindle drive power,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+5,1,1,Spindle speed,rpm,rpm,0,12000,5,2026-10-01T05:50:00Z,Programmed spindle speed,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+6,1,1,Coolant pressure,pressure,bar,1.5,6.0,5,2026-10-01T05:50:00Z,Through-tool coolant pressure,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+7,1,2,Chuck vibration,vibration,mm/s,0.2,7.1,5,2026-10-01T05:50:00Z,Headstock vibration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+8,1,2,Headstock temperature,temperature,C,20,80,10,2026-10-01T05:50:00Z,Headstock bearing temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+9,1,2,Main drive current,current,A,3,40,5,2026-10-01T05:50:00Z,Main drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+10,1,2,Main drive power,power,kW,1,15,5,2026-10-01T05:50:00Z,Main drive power,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+11,1,2,Spindle speed,rpm,rpm,0,4500,5,2026-10-01T05:50:00Z,Lathe spindle speed,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+12,2,3,Axis 1 torque,torque,Nm,5,180,5,2026-10-01T05:50:00Z,Axis 1 joint torque,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+13,2,3,Servo current,current,A,1,16,5,2026-10-01T05:50:00Z,Servo drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+14,2,3,Gearbox temperature,temperature,C,20,70,10,2026-10-01T05:50:00Z,Wrist gearbox temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+15,2,3,Cycle time,cycle_time,s,8,45,1,2026-10-01T05:50:00Z,Pick-and-place cycle duration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+16,3,4,Cycle time,cycle_time,s,6,28,1,2026-10-01T05:50:00Z,Pack cycle duration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+17,3,4,Air pressure,pressure,bar,4.5,7.0,5,2026-10-01T05:50:00Z,Pneumatic supply pressure,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+18,3,4,Drive power,power,kW,0.4,6,5,2026-10-01T05:50:00Z,Line drive power,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+19,3,4,Drive current,current,A,1,12,5,2026-10-01T05:50:00Z,Line drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+20,5,5,Motor current,current,A,0.5,12,5,2026-10-01T05:50:00Z,Belt motor current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+21,5,5,Motor power,power,kW,0.2,4,5,2026-10-01T05:50:00Z,Belt motor power,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+22,5,5,Roller vibration,vibration,mm/s,0.1,4.5,10,2026-10-01T05:50:00Z,Idler roller vibration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+23,5,5,Drive speed,rpm,rpm,0,180,5,2026-10-01T05:50:00Z,Drive roller speed,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+24,6,6,Spindle vibration,vibration,mm/s,0.2,4.5,5,2026-10-01T05:50:00Z,Spindle housing vibration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+25,6,6,Spindle temperature,temperature,C,20,75,10,2026-10-01T05:50:00Z,Spindle bearing temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+26,6,6,Spindle motor current,current,A,5,70,5,2026-10-01T05:50:00Z,Main spindle drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+27,6,6,Spindle power,power,kW,3,30,5,2026-10-01T05:50:00Z,Spindle drive power,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+28,6,6,Spindle speed,rpm,rpm,0,10000,5,2026-10-01T05:50:00Z,Programmed spindle speed,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+29,6,7,Spindle vibration,vibration,mm/s,0.2,7.1,5,2026-10-01T05:50:00Z,Drill spindle vibration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+30,6,7,Spindle speed,rpm,rpm,0,8000,5,2026-10-01T05:50:00Z,Drill spindle speed,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+31,6,7,Spindle motor current,current,A,2,28,5,2026-10-01T05:50:00Z,Drill drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+32,6,7,Spindle temperature,temperature,C,20,70,10,2026-10-01T05:50:00Z,Drill spindle temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+33,7,8,Axis 1 torque,torque,Nm,10,350,5,2026-10-01T05:50:00Z,Axis 1 joint torque,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+34,7,8,Servo current,current,A,2,25,5,2026-10-01T05:50:00Z,Servo drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+35,7,8,Gearbox temperature,temperature,C,20,75,10,2026-10-01T05:50:00Z,Wrist gearbox temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+36,8,9,Cycle time,cycle_time,s,1,8,1,2026-10-01T05:50:00Z,Label apply cycle,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+37,8,9,Air pressure,pressure,bar,4,6.5,5,2026-10-01T05:50:00Z,Tamp pneumatic pressure,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+38,8,9,Print head temperature,temperature,C,25,60,10,2026-10-01T05:50:00Z,Print head temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+39,9,10,Cycle time,cycle_time,s,2,12,1,2026-10-01T05:50:00Z,Divert cycle duration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+40,9,10,Drive current,current,A,2,18,5,2026-10-01T05:50:00Z,Sorter drive current,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+41,9,10,Drive power,power,kW,1,10,5,2026-10-01T05:50:00Z,Sorter drive power,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+42,9,10,Belt vibration,vibration,mm/s,0.2,7.1,10,2026-10-01T05:50:00Z,Carry belt vibration,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+43,1,,Hall CO2,co2,ppm,400,1200,60,2026-10-01T05:50:00Z,Machining hall CO2,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+44,1,,Hall temperature,temperature,C,16,30,60,2026-10-01T05:50:00Z,Machining hall air temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+45,2,,Hall CO2,co2,ppm,400,1000,60,2026-10-01T05:50:00Z,Assembly cell CO2,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+46,3,,Room humidity,humidity,%,30,65,60,2026-10-01T05:50:00Z,Packaging hall humidity,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+47,4,,Compressed air pressure,pressure,bar,6,8,30,2026-10-01T05:50:00Z,Plant air header pressure,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+48,4,,Room humidity,humidity,%,30,60,60,2026-10-01T05:50:00Z,Utilities room humidity,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+49,4,,Room temperature,temperature,C,15,32,60,2026-10-01T05:50:00Z,Utilities room temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+50,5,,Room humidity,humidity,%,35,60,60,2026-10-01T05:50:00Z,Warehouse humidity,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+51,5,,Room temperature,temperature,C,10,28,60,2026-10-01T05:50:00Z,Warehouse temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+52,6,,Hall air quality,air_quality,ug/m3,0,150,60,2026-10-01T05:50:00Z,Machining hall particulates,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+53,6,,Hall CO2,co2,ppm,400,1200,60,2026-10-01T05:50:00Z,Machining hall CO2,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+54,7,,Hall CO2,co2,ppm,400,1000,60,2026-10-01T05:50:00Z,Assembly cell CO2,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+55,8,,Room humidity,humidity,%,30,65,60,2026-10-01T05:50:00Z,Packaging hall humidity,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+56,8,,Room air quality,air_quality,ug/m3,0,50,60,2026-10-01T05:50:00Z,Packaging hall particulates,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+57,9,,Dock temperature,temperature,C,5,32,60,2026-10-01T05:50:00Z,Shipping dock temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+58,9,,Room humidity,humidity,%,30,70,60,2026-10-01T05:50:00Z,Shipping dock humidity,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+59,10,,Room air quality,air_quality,ug/m3,0,80,60,2026-10-01T05:50:00Z,Workshop particulates,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+60,10,,Room temperature,temperature,C,15,28,60,2026-10-01T05:50:00Z,Workshop temperature,true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z

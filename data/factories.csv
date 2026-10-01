@@ -1,0 +1,3 @@
+id,name,timezone,city,description,is_active,created_at,updated_at
+1,Novi Sad Machining Plant,Europe/Belgrade,Novi Sad,"Machining, assembly, and packaging site",true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z
+2,Kragujevac Assembly Plant,Europe/Belgrade,Kragujevac,"Assembly, packaging, and shipping site",true,2024-01-01T08:00:00Z,2024-01-31T08:00:00Z

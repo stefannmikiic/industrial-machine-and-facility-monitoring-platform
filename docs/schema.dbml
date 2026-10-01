@@ -54,11 +54,6 @@ Enum machine_criticality {
   high
 }
 
-Enum alarm_severity {
-  warning
-  critical
-}
-
 Enum reading_quality {
   good
   uncertain
@@ -233,34 +228,6 @@ Table app.machine_state_events {
 }
 
 
-Table app.alarm_events {
-  id bigint [pk, increment]
-  sensor_id int [not null]
-  severity alarm_severity [not null]
-  trigger_value decimal [not null]
-  threshold_value decimal
-  started_at timestamptz [not null]
-  cleared_at timestamptz
-  acknowledged_at timestamptz
-  acknowledged_by int
-  message varchar
-
-  Indexes {
-    (sensor_id, started_at)
-    acknowledged_by
-    (sensor_id) [unique, note: 'WHERE cleared_at IS NULL — at most one open alarm per sensor']
-  }
-
-  Note: '''
-    Open alarm: cleared_at IS NULL. Thresholds live on sensors (min/max_normal_value).
-    CHECK cleared_at IS NULL OR cleared_at >= started_at.
-    CHECK acknowledged_at IS NULL OR acknowledged_at >= started_at.
-    CHECK (acknowledged_by IS NULL) = (acknowledged_at IS NULL).
-    Who may acknowledge is enforced in the application.
-  '''
-}
-
-
 Ref: app.factories.id < app.areas.factory_id
 Ref: app.employees.id < app.employee_roles.employee_id
 Ref: app.roles.id < app.employee_roles.role_id
@@ -271,5 +238,3 @@ Ref: app.machines.id < app.sensors.machine_id
 Ref: app.sensors.(machine_id, area_id) > app.machines.(id, area_id)
 Ref: app.sensors.id < app.sensor_readings.sensor_id
 Ref: app.machines.id < app.machine_state_events.machine_id
-Ref: app.sensors.id < app.alarm_events.sensor_id
-Ref: app.employees.id < app.alarm_events.acknowledged_by

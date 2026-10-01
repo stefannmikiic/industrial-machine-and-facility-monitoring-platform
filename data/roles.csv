@@ -1,0 +1,4 @@
+id,name,description,created_at,updated_at
+1,admin,Platform administrator,2024-01-01T08:00:00Z,2024-01-01T08:00:00Z
+2,engineer,Factory engineer,2024-01-01T08:00:00Z,2024-01-01T08:00:00Z
+3,operator,Shop-floor operator,2024-01-01T08:00:00Z,2024-01-01T08:00:00Z
